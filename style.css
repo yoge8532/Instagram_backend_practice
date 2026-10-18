@@ -1,0 +1,38 @@
+h1 {
+    color: #c13584;
+    text-align: center;
+}
+
+
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allows posts to drop to the next row if the screen runs out of space */
+    gap: 20px;       /* Adds neat spacing between cards */
+    justify-content: center;
+}
+
+/* Individual post container */
+.post {
+    background-color: blueviolet;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+    border-radius: 8px;
+    width: 450px; /* Adjust the card width as needed */
+}
+
+.post img {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    height: auto;
+}
+
+.post_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
